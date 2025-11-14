@@ -1,0 +1,13 @@
+body{
+    font-family:Arcane,Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+@font-face {
+    font-family:Arcane;
+    src:url("Arcane Nine.otf");
+}
+.head1{
+    font-size: 38px;
+}
