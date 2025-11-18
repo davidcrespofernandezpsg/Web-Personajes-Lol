@@ -1,13 +1,38 @@
-body{
-    font-family:Arcane,Helvetica, sans-serif;
+* {margin: 0px;
+}
+
+body {
+    font-family: Arcane, Helvetica, sans-serif;
     font-size: 16px;
+    background: #fcfafa;
+    background: linear-gradient(90deg, rgba(252, 250, 250, 1) 0%, rgba(193, 227, 207, 1) 50%, rgba(219, 218, 204, 1) 100%);
 }
 
 
 @font-face {
-    font-family:Arcane;
-    src:url("Arcane Nine.otf");
+    font-family: Arcane;
+    src: url("Arcane Nine.otf");
 }
-.head1{
-    font-size: 38px;
+
+header {
+    background: linear-gradient(90deg, rgba(8, 7, 7, 1) 0%, rgba(38, 33, 33, 1) 50%, rgba(64, 16, 16, 1) 100%);
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(8, 7, 7, 1) 0%, rgba(38, 33, 33, 1) 50%, rgba(64, 16, 16, 1) 100%);
+}
+
+.head1 {
+    font-size: 46px;
+    color: #ba8b47;
+}
+
+.div1 {
+    display: inline-block;
+    margin: 5px;
+    border-width: 10px;
+    border-style: groove;
+    width: 500px;
+    height: 500px;
+
 }
