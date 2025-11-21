@@ -52,6 +52,24 @@ text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
 margin: 15px 0;   
 -webkit-text-stroke: 1px black;                           
 }
+.nombre-campeon-ionia{
+font-family:Dash, Helvetica, sans-serif;
+font-size: 70px;                             
+text-align: center;                         
+color: #C8A2C8;                              
+text-shadow: 3px 3px 6px rgba(0,0,0,0.6);  
+margin: 15px 0;   
+-webkit-text-stroke: 1px black;                           
+}
+.nombre-campeon-shurima{
+font-family:Dash, Helvetica, sans-serif;
+font-size: 70px;                             
+text-align: center;                         
+color: #D2B48C;                              
+text-shadow: 3px 3px 6px rgba(0,0,0,0.6);  
+margin: 15px 0;   
+-webkit-text-stroke: 1px black;                           
+}
 .personaje-contenido {
   max-width: 900px;      
   margin: 0 auto;       
