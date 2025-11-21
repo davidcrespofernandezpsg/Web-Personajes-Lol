@@ -25,6 +25,33 @@ text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
 margin: 15px 0;   
 -webkit-text-stroke: 1px black;                           
 }
+.nombre-campeon-aguas-estancadas{
+font-family:Dash, Helvetica, sans-serif;
+font-size: 70px;                             
+text-align: center;                         
+color: #2E4D3C;                              
+text-shadow: 3px 3px 6px rgba(0,0,0,0.6);  
+margin: 15px 0;   
+-webkit-text-stroke: 1px black;                           
+}
+.nombre-campeon-demacia{
+font-family:Dash, Helvetica, sans-serif;
+font-size: 70px;                             
+text-align: center;                         
+color: #F5F5F5;                              
+text-shadow: 3px 3px 6px rgba(0,0,0,0.6);  
+margin: 15px 0;   
+-webkit-text-stroke: 1px black;                           
+}
+.nombre-campeon-freljord{
+font-family:Dash, Helvetica, sans-serif;
+font-size: 70px;                             
+text-align: center;                         
+color: #1E3A8A;                              
+text-shadow: 3px 3px 6px rgba(0,0,0,0.6);  
+margin: 15px 0;   
+-webkit-text-stroke: 1px black;                           
+}
 .personaje-contenido {
   max-width: 900px;      
   margin: 0 auto;       
