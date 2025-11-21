@@ -1,0 +1,4 @@
+.cuadro.region { background-image:url(region.jpg); }
+.cuadro.posicion { background-image: url(posicion.png); background-size: 90%; 
+background-repeat: no-repeat;background-size: cover;}
+.cuadro.dificultad { background-image: url(dificultad.png); }
