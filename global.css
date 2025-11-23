@@ -1,14 +1,18 @@
+/* Importamos y definimos la fuente personalizada Spartan MB */
 
 @font-face {
   font-family: Spartan MB;
   src: url("SpartanMB-Regular.otf");
 }
 
+/* Importamos y definimos la fuente personalizada Arcane */
+
 @font-face {
   font-family: Arcane;
   src: url("Arcane Nine.otf");
 }
 
+/* Aquí he establecido un estilo global del body: fuente, tamaño, fondo degradado, márgenes y espaciado de línea */
 
 body {
   font-family: Spartan MB, Helvetica, sans-serif;
@@ -19,15 +23,18 @@ body {
   line-height: 1.5;
 }
 
+/* Aquí he definido el estilo del título principal */
+
 .head1 {
   position: relative;
   z-index: 1;
   font-size: 65px;
   color: #ba8b47;
   text-align: center;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   font-family: Arcane, Helvetica, sans-serif;
 }
+
+/* Aquí he definido el estilo del header: que contendrá el video y título */
 
 header {
   position: relative;
@@ -37,6 +44,8 @@ header {
   padding: 2rem 0;
   color: #fff;
 }
+
+/* Estilo del video de cabecera: que ocupara todo el header y estará detrás del contenido */
 
 .video-header {
   position: absolute;
@@ -48,10 +57,14 @@ header {
   z-index: -1;
 }
 
+/* Estilo del menú de navegación principal */
+
 .principal-nav {
   background: linear-gradient(90deg, rgba(38, 33, 33, 1) 0%, rgba(50, 40, 40, 0.9) 50%, rgba(64, 16, 16, 1) 100%);
   padding: 0.5rem 1rem;
 }
+
+/* Lista de enlaces de navegación: horizontal, centrada y con separación */
 
 .principal-nav ul {
   list-style: none;
@@ -62,6 +75,17 @@ header {
   padding: 0;
   font-size: 25px;
 }
+/* Estilo de los párrafos de introducción */
+
+.introduccion {
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Estilo de los enlaces de navegación */
 
 .principal-nav a {
   text-decoration: none;
@@ -69,14 +93,17 @@ header {
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  transition: background-color 0.3s;
 }
+
+/* Efecto hover y focus en los enlaces de navegación */
 
 .principal-nav a:hover,
 .principal-nav a:focus {
   background-color: #e76f51;
   color: #fff;
 }
+
+/* Estilo de los párrafos de introducción */
 
 .introduccion {
   margin: 40px auto;
@@ -85,6 +112,8 @@ header {
   line-height: 1.6;
   text-align: justify;
 }
+
+/* Clases para poner formato a los cuadros de los tipos de clasificación del indice (cuadros de región, posición, dificultad) */
 
 .secciones-indice {
   display: flex;
@@ -98,18 +127,14 @@ header {
   display: block;
   width: 400px;
   height: 300px;
-  color: #fff;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.cuadro h2, .cuadro p {
-  font-family: 'Spartan MB', sans-serif;
-}
+/* Estilo de la linea horizontal que hace de separador con el footer*/
 
 .separador-footer {
   border: 0;
@@ -120,6 +145,8 @@ header {
   border-radius: 50px;
 }
 
+/* Estilo del footer */
+
 .footer {
   background: linear-gradient(90deg, rgba(8, 7, 7, 1) 0%, rgba(38, 33, 33, 1) 50%, rgba(64, 16, 16, 1) 100%);
   color: #ba8b47;
@@ -129,6 +156,7 @@ header {
   font-size: 16px;
 }
 
+/* Media query para pantallas menores a 1024px para hacer la web responsive */
 
 @media screen and (max-width: 1024px) {
   header { padding: 1rem 0; min-height: 150px; }
@@ -138,9 +166,11 @@ header {
   .footer { font-size: 14px; padding: 15px 5px; }
 }
 
+/* Media query para pantallas menores a 360px para hacer la web responsive*/
+
 @media screen and (max-width: 360px) {
   body { padding: 0 1rem; font-size: 16px; }
-  .head1 { font-size: 40px; text-shadow: 5px 5px 3px rgba(0,0,0,0.5); padding: 0 10px; }
+  .head1 { font-size: 40px;padding: 0 10px; }
   .principal-nav ul { flex-direction: column; gap: 0.5rem; font-size: 18px; }
   .principal-nav a { padding: 0.5rem; }
   .introduccion { font-size: 16px; padding: 0 10px; margin: 20px auto; }

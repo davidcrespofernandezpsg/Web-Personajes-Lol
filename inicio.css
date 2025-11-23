@@ -1,4 +1,150 @@
-.cuadro.region { background-image:url(region.jpg); }
-.cuadro.posicion { background-image: url(posicion.png); background-size:cover; 
-background-repeat: no-repeat;}
-.cuadro.dificultad { background-image: url(dificultad.png); }
+/* Imágenes de los cuadros principales en la página de inicio */
+
+.cuadro.region {
+  background-image: url(region.jpg);
+}
+
+.cuadro.posicion {
+  background-image: url(posicion.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cuadro.dificultad {
+  background-image: url(dificultad.png);
+}
+
+/* Clase con diferentes características para la tabla de regiones */
+
+.tabla-regiones {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: 'Spartan MB', Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+/* Clase para permitir el scroll en móviles */
+.tabla-scroll {
+  overflow-x: auto;
+}
+
+/* Clase para darle formato general a la tabla */
+.regiones-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 520px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Clase para darle formato a los heads de la tabla */
+.regiones-tabla thead th {
+  text-align: center;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  background-color: wheat;
+}
+
+/* Clase para darle formato a los datos de la tabla */
+.regiones-tabla td {
+  padding: 12px 18px;
+  font-size: 15px;
+}
+
+/* Clase para centrar algunos datos de la tabla */
+
+.regiones-tabla .center {
+  text-align: center;
+}
+
+/* Clase para centrar datos de la tabla y poner colores según la región */
+
+.regiones-tabla .morado {
+  color: #6a0dad;
+  text-align: center;
+  font-weight: 700;
+}
+
+.regiones-tabla .verde {
+  color: #2E4D3C;
+  text-align: center;
+  font-weight: 700;
+}
+
+.regiones-tabla .blanco {
+  color: #F5F5F5;
+  text-align: center;
+  font-weight: 700;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.regiones-tabla .azul {
+  color: #1E3A8A;
+  text-align: center;
+  font-weight: 700;
+}
+
+.regiones-tabla .violeta {
+  color: #C8A2C8;
+  text-align: center;
+  font-weight: 700;
+}
+
+.regiones-tabla .marron {
+  color: #D2B48C;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Clase para aplicar formato al formulario de sugerencias de campeones */
+
+.formulario-campeones {
+  margin: 30px auto;
+  width: 50%;
+  max-width: 100%;
+  padding: 20px;
+  background: #f7f5ef;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Clase para aplicar formato a los inputs y al select del formulario de sugerencias de campeones */
+
+.formulario-campeones input,
+.formulario-campeones select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+/* Clase para aplicar formato a los botones del formulario de sugerencias de campeones */
+
+.formulario-campeones button {
+  padding: 4px 6px;
+  font-size: 16px;
+  background: #ba8b47;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Cambio de color al pasar con el ratón por los botones */
+
+.formulario-campeones button:hover {
+  background: #8d6934;
+}
+
+/* Clase para poder poner el checkbox en la misma línea que el texto */
+.checkbox-linea {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
